@@ -36,7 +36,7 @@ session_start();
                            //connexion
                            $_SESSION['message'] = "<p class='message_inscription'>Votre compte a été créer avec succès ! 🎉</p>" ;
                            //redirection vers la page de connexion
-                           header("Location:index.php") ;
+                           header("Location:index.phtml") ;
                       
                        }else {
                            //si non

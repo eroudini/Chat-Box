@@ -4,7 +4,7 @@
   if(!isset($_SESSION['user'])){
       // si l'utilisateur n'est pas connecté
      // redirection vers la page de connexion
-     header("location:index.php");
+     header("location:index.phtml");
   }
   $user = $_SESSION['user'] // email de l'utilisateur
 ?>
