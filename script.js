@@ -10,7 +10,7 @@ mdp2.onkeyup = function(){
     message_error = document.querySelector('.message_error');
     if(mdp1.value != mdp2.value){
         // si mdp1 et mdp2 ne sont pas égaux alors on affiche un message
-        message_error.innerText = "Les mots de passe ne sont identique";
+        message_error.innerText = "Les mots de passe ne sont identique 😕";
     } else {
         // sinon // on ecrit rien dans le message d'erreur
         message_error.innerText=""
